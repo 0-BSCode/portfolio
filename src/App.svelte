@@ -6,7 +6,7 @@
   import "./app.css";
 </script>
 
-<main>
+<main class="bg-primary-900 font-mono">
   <div>
     <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
       <img src={viteLogo} class="logo" alt="Vite Logo" />
