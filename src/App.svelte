@@ -17,7 +17,7 @@
   </div>
   <h1 class="font-medium text-red-400">Vite + Svelte</h1>
 
-  <div class="card">
+  <div class="w-7 bg-slate-950 text-yellow-600">
     <Counter />
   </div>
 
