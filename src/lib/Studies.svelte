@@ -14,6 +14,7 @@
     <Study
       startDate={"March 2024"}
       endDate={"May 2024"}
+      studyUrl={"https://www.figma.com/file/2lTTSgyJi6Nbtaod3QXqUe/Design-Project-%7C-Leafe?type=design&node-id=54%3A17708&mode=design&t=ztJpKDtew80JLD41-1"}
       title={"Leafe"}
       subtitle={"Built for writers with simplicity in mind."}
       description={"A cross-platform Web Application for story text editing, task management, workflows, and easy sharing. Leave or request for peer reviews on your work via URL and avail of AI assistance for multiple utilities."}

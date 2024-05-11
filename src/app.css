@@ -6,6 +6,6 @@
 
 @layer base {
   body {
-    @apply h-screen bg-primary-900 font-mono text-white;
+    @apply m-auto h-screen max-w-[30rem] bg-primary-900 font-mono text-white;
   }
 }

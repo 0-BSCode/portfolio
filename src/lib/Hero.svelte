@@ -18,21 +18,30 @@
     I build bridges between problems and progress through code
   </p>
   <!-- Socials -->
-  <div class="flex gap-6">
+  <div class="flex items-center justify-between">
+    <div class="flex gap-6">
+      <a
+        href="https://www.linkedin.com/in/bryan-sanchez-b316b7203/"
+        target="_blank"
+      >
+        <img src={LinkedInLogo} alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/0-BSCode" target="_blank">
+        <img src={GithubLogo} alt="Github" />
+      </a>
+      <a href="mailto:bipsanchez.work@gmail.com" target="_blank">
+        <img src={GoogleLogo} alt="Google" />
+      </a>
+      <a href="https://www.facebook.com/BryanSanchez1024/" target="_blank">
+        <img src={FacebookLogo} alt="Facebook" />
+      </a>
+    </div>
     <a
-      href="https://www.linkedin.com/in/bryan-sanchez-b316b7203/"
+      class="flex rounded-full bg-primary-300 px-6 py-4 text-base"
+      href={"https://drive.google.com/file/d/1qnlrz-wXhjbgjVyo-CuKH0ivnCrxnYNk/view?usp=sharing"}
       target="_blank"
     >
-      <img src={LinkedInLogo} alt="LinkedIn" />
-    </a>
-    <a href="https://github.com/0-BSCode" target="_blank">
-      <img src={GithubLogo} alt="Github" />
-    </a>
-    <a href="mailto:bipsanchez.work@gmail.com" target="_blank">
-      <img src={GoogleLogo} alt="Google" />
-    </a>
-    <a href="https://www.facebook.com/BryanSanchez1024/" target="_blank">
-      <img src={FacebookLogo} alt="Facebook" />
+      View Resume
     </a>
   </div>
 </section>

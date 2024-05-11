@@ -14,6 +14,7 @@
     <Project
       startDate={"September 2023"}
       endDate={"December 2023"}
+      projectUrl={"https://github.com/0-BSCode/paper-trail-v2"}
       title={"Paper Trails"}
       subtitle={"A Centralized Grievance System for the University of San Carlos"}
       description={"A web app cut grievance processing time by 25% and boosted student satisfaction 15%. This digital platform replaced a manual paper system, allowing students to submit and track grievances electronically. Secure communication was ensured through role-based access control for students, faculty, and administrators."}
