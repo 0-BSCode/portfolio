@@ -4,7 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        "text-white": "#f3f0ee"
+        "text-white": "#f3f0ee",
+        "primary-300": "#DA6D45",
+        "primary-500": "#D9876A",
+        "primary-700": "#823F26",
+        "primary-900": "#130D0A"
       },
       backgroundColor: {
         "primary-300": "#DA6D45",

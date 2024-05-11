@@ -5,7 +5,7 @@
   import GoogleLogo from "../assets/google.svg";
 </script>
 
-<div class="flex flex-col gap-6">
+<section class="flex flex-col gap-6">
   <!-- Introduction -->
   <div class="flex flex-col gap-1">
     <h1 class="text-4xl font-bold">Bryan Sanchez</h1>
@@ -35,4 +35,4 @@
       <img src={FacebookLogo} alt="Facebook" />
     </a>
   </div>
-</div>
+</section>
