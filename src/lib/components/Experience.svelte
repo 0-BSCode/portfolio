@@ -19,11 +19,12 @@
         {startDate} - {endDate}
       </p>
       <!-- Job Title and Company-->
-      <div class="flex items-center gap-2">
-        <p class="text-base">{position}</p>
-        <p class="text-2xl">&bull;</p>
+      <div class="flex flex-col gap-0 font-bold">
+        <div class="flex items-center gap-2">
+          <p class="text-base">{position}</p>
+          <img class="w-10" src={ArrowLogo} alt="Arrow" />
+        </div>
         <p class="text-base">{company}</p>
-        <img class="w-10" src={ArrowLogo} alt="Arrow" />
       </div>
       <!-- Job Description -->
       <div class="flex flex-col gap-3">
