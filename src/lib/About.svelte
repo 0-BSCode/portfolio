@@ -1,5 +1,6 @@
 <script lang="ts">
   import PlantLogo from "../assets/plant.svg";
+  import Link from "./components/Link.svelte";
 </script>
 
 <section class="mt-24 flex flex-col gap-6">
@@ -17,19 +18,10 @@
     </p>
     <p>
       Today, I bring several years of experience to the table, honed through
-      internships at prominent YC-backed tech companies like <a
-        class="inline text-primary-500"
-        href="https://dashlabs.ai/"
-        target="_blank">Dashlabs.ai</a
-      >
+      internships at prominent YC-backed tech companies like
+      <Link url={"https://dashlabs.ai/"} text={"Dashlabs.ai"} />
       and
-      <a
-        class="inline text-primary-500"
-        href="https://www.expedock.com/"
-        target="_blank"
-      >
-        Expedock
-      </a>.
+      <Link url={"https://www.expedock.com/"} text={"Expedock"} />.
     </p>
     <p>
       When I'm not tackling coding challenges, I find fulfillment in exploring

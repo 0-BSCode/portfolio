@@ -1,12 +1,11 @@
+<script>
+  import Link from "./components/Link.svelte";
+</script>
+
 <footer class="flex pb-8 pt-12">
   <p class="text-center text-xs">
-    Inspired by the portfolio sites of <a
-      class="inline text-primary-300"
-      href={"https://brittanychiang.com/"}
-      target="_blank"
-    >
-      Brittany Chiang
-    </a>
+    Inspired by the portfolio sites of
+    <Link url={"https://brittanychiang.com/"} text={"Brittany Chiang"} />
     and
     <a
       class="inline text-primary-300"
