@@ -46,5 +46,12 @@
       position={"Software Engineer"}
       tools={["React", "Typescript", "MongoDB", "GraphQL"]}
     />
+    <a
+      class="flex w-fit rounded-full bg-primary-700 px-6 py-4 text-xs"
+      href={"https://drive.google.com/file/d/1qnlrz-wXhjbgjVyo-CuKH0ivnCrxnYNk/view?usp=sharing"}
+      target="_blank"
+    >
+      View All Experiences
+    </a>
   </div>
 </section>

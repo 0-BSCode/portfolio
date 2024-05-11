@@ -5,6 +5,7 @@
   import Hero from "./lib/Hero.svelte";
   import About from "./lib/About.svelte";
   import Experiences from "./lib/Experiences.svelte";
+  import Projects from "./lib/Projects.svelte";
 </script>
 
 <Navbar />
@@ -12,4 +13,5 @@
   <Hero />
   <About />
   <Experiences />
+  <Projects />
 </main>
