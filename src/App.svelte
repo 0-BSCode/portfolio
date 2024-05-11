@@ -6,6 +6,8 @@
   import About from "./lib/About.svelte";
   import Experiences from "./lib/Experiences.svelte";
   import Projects from "./lib/Projects.svelte";
+  import Studies from "./lib/Studies.svelte";
+  import Footer from "./lib/Footer.svelte";
 </script>
 
 <Navbar />
@@ -14,4 +16,6 @@
   <About />
   <Experiences />
   <Projects />
+  <Studies />
 </main>
+<Footer />
