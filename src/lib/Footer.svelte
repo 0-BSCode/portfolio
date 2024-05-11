@@ -7,12 +7,6 @@
     Inspired by the portfolio sites of
     <Link url={"https://brittanychiang.com/"} text={"Brittany Chiang"} />
     and
-    <a
-      class="inline text-primary-300"
-      href={"https://bonhomme.lol/"}
-      target="_blank"
-    >
-      Maximme Bonhomme
-    </a>
+    <Link url={"https://bonhomme.lol/"} text={"Maximme Bonhomme"} />
   </p>
 </footer>
