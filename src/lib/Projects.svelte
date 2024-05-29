@@ -28,7 +28,7 @@
       ]}
     />
     <a
-      class="flex w-fit rounded-full bg-primary-700 px-6 py-4 text-xs"
+      class="flex w-fit rounded-full bg-primary-700 px-6 py-4 text-sm"
       href={"https://github.com/0-BSCode"}
       target="_blank"
     >

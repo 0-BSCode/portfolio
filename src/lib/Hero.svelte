@@ -10,13 +10,13 @@
   <!-- Introduction -->
   <div class="flex flex-col gap-1">
     <h1 class="text-4xl font-bold">Bryan Sanchez</h1>
-    <p class="text-sm font-medium">
+    <p class="text-lg font-medium">
       Product-driven Fullstack Software Engineer
     </p>
   </div>
   <!-- Description -->
-  <p class="text-xs">
-    I build bridges between problems and progress through code
+  <p class="text-base">
+    I build bridges between problems and progress through code.
   </p>
   <!-- Socials -->
   <div class="flex flex-col items-center justify-between gap-6">

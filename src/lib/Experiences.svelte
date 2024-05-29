@@ -18,7 +18,7 @@
       companyUrl={"https://www.oboda.io/"}
       description={"Developed and implemented an analytics platform for the company website using NextJS, Prisma, and tRPC, resulting in a 40% increase in customer data utilization for informed decision-making."}
       position={"Software Engineer"}
-      tools={["React", "t3", "python", "scikit-learn"]}
+      tools={["React", "t3", "Python", "scikit-learn"]}
     />
     <Experience
       startDate={"May 2023"}
@@ -47,7 +47,7 @@
       tools={["React", "Typescript", "MongoDB", "GraphQL"]}
     />
     <a
-      class="flex w-fit rounded-full bg-primary-700 px-6 py-4 text-xs"
+      class="flex w-fit rounded-full bg-primary-700 px-6 py-4 text-sm"
       href={"https://drive.google.com/file/d/1qnlrz-wXhjbgjVyo-CuKH0ivnCrxnYNk/view?usp=sharing"}
       target="_blank"
     >

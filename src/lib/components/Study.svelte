@@ -15,22 +15,24 @@
   <div class="flex flex-col gap-4">
     <!-- Header -->
     <div class="flex flex-col gap-3">
-      <p class="text-xs">
+      <p class="text-sm">
         {startDate} - {endDate}
       </p>
-      <div class="flex items-center gap-2">
-        <p class="text-base font-bold">
-          {title}
+      <div class="flex flex-col gap-1">
+        <div class="flex items-center gap-2">
+          <p class="text-xl font-bold">
+            {title}
+          </p>
+          <img class="w-10" src={ArrowLogo} alt="Arrow" />
+        </div>
+        <p class="text-base italic">
+          {subtitle}
         </p>
-        <img class="w-10" src={ArrowLogo} alt="Arrow" />
       </div>
-      <p class="text-xs italic">
-        {subtitle}
-      </p>
     </div>
     <!-- Description -->
     <div class="flex flex-col gap-3">
-      <p class="text-xs">
+      <p class="text-sm">
         {description}
       </p>
       <!-- Tech Stack -->
