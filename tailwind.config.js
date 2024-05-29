@@ -18,6 +18,9 @@ export default {
       },
       fontFamily: {
         mono: ["Roboto Mono", "ui-monospace", "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", "monospace"]
+      },
+      screens: {
+        "xs": "360px"
       }
     },
   },
