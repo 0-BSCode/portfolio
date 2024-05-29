@@ -9,10 +9,23 @@
 
   import ArrowLogo from "../../assets/arrow.svg";
   import Badge from "./Badge.svelte";
+  let active = false;
 </script>
 
-<a href={companyUrl} target="_blank">
-  <div class="flex flex-col gap-2">
+<a
+  href={companyUrl}
+  target="_blank"
+  on:mouseenter={() => {
+    active = true;
+  }}
+  on:mouseleave={() => {
+    active = false;
+  }}
+>
+  <div
+    class={"flex flex-col gap-2 rounded-lg p-2 transition-all"}
+    style={active ? "background:#823F26" : "background:#130D0A"}
+  >
     <!-- Heading -->
     <div class="flex flex-col gap-3">
       <p class="text-sm">

@@ -9,10 +9,23 @@
   export let description;
   export let tools;
   export let studyUrl;
+  let active = false;
 </script>
 
-<a href={studyUrl} target="_blank">
-  <div class="flex flex-col gap-4">
+<a
+  href={studyUrl}
+  target="_blank"
+  on:mouseenter={() => {
+    active = true;
+  }}
+  on:mouseleave={() => {
+    active = false;
+  }}
+>
+  <div
+    class="flex flex-col gap-4 rounded-lg p-2 transition-all"
+    style={active ? "background:#823F26" : "background:#130D0A"}
+  >
     <!-- Header -->
     <div class="flex flex-col gap-3">
       <p class="text-sm">
